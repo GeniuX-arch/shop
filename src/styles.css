@@ -1,0 +1,5 @@
+  .custom-transition::before {
+    content: '';
+    transition: transform .45s cubic-bezier(.785,.135,.15,.86);
+    background-color: black;
+  }
