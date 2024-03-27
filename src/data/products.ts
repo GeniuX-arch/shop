@@ -1,5 +1,5 @@
 import Product from "./interface"
-import { img as hola } from "../assets/imgs";
+import { img, img2} from "../assets/imgs";
 
 
 export const products:Product[]=[
@@ -8,14 +8,28 @@ export const products:Product[]=[
         name:"hola",
         description:"hola",
         cost:25,
-        img:[`${hola}`],
+        img:[`${img}`,`${img2}`],
     },
     {
         id:1,
         name:"hola",
         description:"hola",
         cost:25,
-        img:[`${hola}`],
-    }
+        img:[`${img}`,`${img2}`],
+    },
+    {
+        id:2,
+        name:"hola",
+        description:"hola",
+        cost:25,
+        img:[`${img}`,`${img2}`],
+    },
+    {
+        id:3,
+        name:"hola",
+        description:"hola",
+        cost:25,
+        img:[`${img}`,`${img2}`],
+    },
 
 ]
