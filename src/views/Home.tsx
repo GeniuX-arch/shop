@@ -12,9 +12,7 @@ export default function Home() {
             {products.map((product: Product) => (
                 <Items 
                     key={product.id}
-                    name={product.name}
-                    cost={product.cost} 
-                    img={product.img} 
+                    id={product.id} 
                 />
             ))}
         </div>
